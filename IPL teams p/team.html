@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+
+  <style>
+    nav{
+      position: relative;
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/">
+          <img
+            class="logo"
+            src="https://www.pngall.com/wp-content/uploads/2017/04/IPL-Logo-2017-PNG.png"
+            alt=""
+            width="20%"
+          />
+        </a>
+      </div>
+
+      <div class="nav-items">
+        <a href="/">Home</a>
+        <a href="#cards">Team</a>
+      </div>
+
+      <!-- <button class="btn btn-danger" id="clickToadd">Add Teams</button> -->
+      <button class="btn btn-danger" id="addPlayers">Add Players</button>
+
+      <section class="add-players">
+        <i class="fa-solid fa-xmark" id="crossAddTeaams"></i>
+        <h5 class="text-center">Add Players</h5>
+        <form action="" id="form">
+          <label for="">Name</label>
+          <input type="text" placeholder="Enter Name" name='name'  id="Playersname">
+          <label for="">Role</label>
+          <input type="text" placeholder="Enter Role" name="caption" id="PlayersRole">
+          <label for="">DOB</label>
+          <input type="date" placeholder="Enter DOB" name="caption" id="PlayersDOB">
+          <label for="">Price</label>
+          <input type="text" placeholder="Enter Price" name="caption" id="PlayersPrice">
+          <label for="">Image</label>
+          <input id="Playerslogo" type="text" placeholder="Players logo">
+  
+          <button class="btn btn-danger mt-3">submit</button>
+  
+        </form>
+      </section>
+      <div class="nav-search">
+        <label for="" class="btn btn-danger">Search</label>
+        <input type="text" placeholder="Search.." />
+      </div>
+    </nav> 
+
+    
+<section class="team-members">
+    
+    
+        
+    
+ 
+
+</section>
+<section class="team-players-cards">
+ 
+
+</section>
+
+   
+    
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="team.js"></script>
+  </body>
+</html>

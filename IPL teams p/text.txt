@@ -1,0 +1,10 @@
+<a href ='Players.html?playerId=${index} ' key=${index}>
+<div class="card" style="width: 18rem;">
+<img src=${elm.image} class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Name :${elm.name}</h5>
+ 
+  <a href="Players.html?playerId=${index} " class="btn btn-primary player-btn">View More</a>
+</div>
+</div>
+</a>
